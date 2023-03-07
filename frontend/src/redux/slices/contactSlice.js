@@ -2,8 +2,8 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import authHeader from "../../utils/authHeader";
 
-// const BASE_URL = "https://mern-agumentik-backend.onrender.com/api";
-const BASE_URL = "http://localhost:3000/contact";
+const BASE_URL = "https://yellow-fullstack-assingment-backend.onrender.com/contact";
+// const BASE_URL = "http://localhost:3000/contact";
 export const createContact = createAsyncThunk(
   "data/createContact",
   async ({ username, email, phone, message }, { rejectWithValue }) => {
@@ -21,6 +21,7 @@ export const createContact = createAsyncThunk(
         }
       );
       const data = await res.data;
+      console.log(data.contact);
 
       return data;
     } catch (error) {

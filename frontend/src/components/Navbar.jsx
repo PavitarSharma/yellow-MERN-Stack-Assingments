@@ -16,7 +16,7 @@ const Navbar = () => {
     <header className="flex justify-between items-center px-8 py-4 shadow-md sticky top-0 z-50 bg-white">
       {/* logo */}
       <div>
-        <Link to="/" className="text-xl font-bold cursor-pointer text-orange-600">Yellow Class</Link>
+        <Link to="/home" className="text-xl font-bold cursor-pointer text-orange-600">Yellow Class</Link>
       </div>
 
       {/* right */}

@@ -7,6 +7,8 @@ import ProctedRoutes from "./utils/ProctedRoutes";
 import EditContact from "./pages/EditContact";
 
 const App = () => {
+
+
   return (
     <BrowserRouter>
       <Routes>

@@ -124,7 +124,7 @@ const Contact = () => {
               </button>
 
               <div className="text-center mt-4">
-                <Link to="/" className="text-orange-500 cursor-pointer">
+                <Link to="/home" className="text-orange-500 cursor-pointer">
                   Go to Home page
                 </Link>
               </div>

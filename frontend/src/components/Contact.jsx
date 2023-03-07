@@ -24,9 +24,11 @@ const Contact = () => {
   } = useForm({ resolver: yupResolver(validate) });
 
   const handleFormSubmit = (data) => {
-    dispatch(createContact(data)).unwrap();
-    document.location.reload();
-    reset();
+    dispatch(createContact(data));
+    setTimeout(() => {
+      document.location.reload();
+    }, 2000)
+    // reset();
   };
 
   return (

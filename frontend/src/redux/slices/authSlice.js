@@ -1,8 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// const BASE_URL = "https://mern-agumentik-backend.onrender.com/api/users";
-const BASE_URL = "http://localhost:3000/auth";
+const BASE_URL = "https://yellow-fullstack-assingment-backend.onrender.com/auth";
+// const BASE_URL = "http://localhost:3000/auth";
 
 export const signUp = createAsyncThunk(
   "auth/signUp",
