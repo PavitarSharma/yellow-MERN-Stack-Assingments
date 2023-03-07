@@ -34,7 +34,7 @@ Axios: Axios is a promised-based HTTP client for JavaScript. It has the ability 
 
 Backend Development Server
 
-#### yarn start
+#### npm start
 
 Frontend Development Server
 
