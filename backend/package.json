@@ -1,13 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -28,14 +26,10 @@
     "passport-local": "^1.0.0",
     "validator": "^13.9.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PavitarSharma/yellow-task-backend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PavitarSharma/yellow-task-backend/issues"
-  },
-  "homepage": "https://github.com/PavitarSharma/yellow-task-backend#readme"
+  "repository": "https://github.com/PavitarSharma/yellow-task-backend.git",
+  "author": "PavitarSharma <pavitarsharma144@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }
