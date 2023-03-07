@@ -31,5 +31,15 @@
   "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.21"
+  },
+  "resolutions": {
+    "body-parser": "1.20.2",
+    "debug": "4.3.4",
+    "on-finished": "2.4.1",
+    "raw-body": "2.5.2",
+    "ms": "2.0.0",
+    "cookie": "0.5.0",
+    "safe-buffer": "5.1.2",
+    "semver": "7.3.8"
   }
 }
