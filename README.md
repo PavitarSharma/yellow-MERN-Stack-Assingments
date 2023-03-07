@@ -1,4 +1,4 @@
-### Yellow Class - Full Stack Assessment
+# Yellow Class - Full Stack Assessment
 
 Live URL:     https://yellow-contact-frontend-assingment-code.netlify.app
 
